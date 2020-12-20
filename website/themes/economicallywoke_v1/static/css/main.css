@@ -1,0 +1,300 @@
+/* ----------------------------------------------------------------------------
+Global styles
+---------------------------------------------------------------------------- */
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #FAFAFA;
+    color: #3c3c3c;
+    font-family: "Source Sans Pro", sans-serif;
+    height: 100%;
+    font-size: 16px;
+}
+
+@media (max-width:450px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+.container {
+    max-width: 750px;
+}
+
+a:hover {
+    color: #2D9CDB !important;
+}
+
+#content img {
+    width: 100%;
+    margin: 4rem 0;
+    display: block;
+}
+
+#content {
+    min-height: 100%;
+    margin-bottom: 8rem;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-top: 60pt;
+    margin-bottom: 30pt;
+    font-family: source-serif-pro, "Source Serif Pro", sans-serif;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-weight: 600;
+    margin-top: 40pt;
+    margin-bottom: 10pt;
+    font-family: source-serif-pro, "Source Serif Pro", sans-serif;
+}
+
+
+#content p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+/* ----------------------------------------------------------------------------
+Nav bar
+---------------------------------------------------------------------------- */
+
+.nav-container {
+    margin-top: 0px;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+nav.navbar .social img {
+    width: 25px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+/* ----------------------------------------------------------------------------
+Splash
+---------------------------------------------------------------------------- */
+
+#splash {
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    background-color: #F3F1E7;
+}
+
+#splash .title {
+    font-size: 5em;
+    font-weight: 700;
+    color: #EB5757;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#splash .subtitle {
+    font-size: 2em;
+    font-weight: 600;
+    color: #2F2235;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#splash .subtext {
+    font-size: 1em;
+    font-weight: 400;
+    color: #2F2235;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* ----------------------------------------------------------------------------
+Page / article title section
+---------------------------------------------------------------------------- */
+
+#page_header {
+    margin-top: 9.5rem;
+    margin-bottom: 9.5rem;
+    font-family: source-serif-pro, "Source Serif Pro", sans-serif;
+    text-align: center;
+}
+
+#page_header h1.title {
+    font-size: 4em;
+    font-weight:700;
+    margin-bottom: 20pt;
+    display: block;
+}
+#page_header span.subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    display: block;
+}
+
+.article-meta {
+    font-size: 1em;
+    font-weight: 300;
+    display: block;
+    color: rgb(161, 161, 161);
+    text-align: center;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+}
+
+/* condition for screen size minimum of 500px
+@media (max-width:450px) {
+
+  
+    #page_header h1.title {
+        font-size: 3em;
+    }
+  
+} */
+
+/* ----------------------------------------------------------------------------
+Footer
+---------------------------------------------------------------------------- */
+
+footer {
+    /* background-color: #003559; */
+    color: #60495A;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 300;
+}
+
+.footer-signup {
+    background-color: #b9d6f2;
+    color: #003559;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin-top: 4rem;
+}
+
+.footer-signup .callout {
+    font-size: 3em;
+    font-weight:700;
+    margin-bottom: 20pt;
+    display: block;
+    text-align: center;
+    font-family: source-serif-pro, "Source Serif Pro", sans-serif;
+}
+
+.footer-signup .subcallout {
+    font-size: 1.5em;
+    font-weight: 300;
+    display: block;
+}
+
+
+/* ----------------------------------------------------------------------------
+Signup form
+---------------------------------------------------------------------------- */
+
+
+.signup {
+    margin-top: 50px;
+}
+
+.signup .form-control {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    border: 1px solid #EBEBEB;
+    margin-right: 10px;
+    font-weight: 100;
+    border-radius: 2px;
+}
+
+.signup button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 1.2em;
+    background-color: #2D9CDB;
+    border: 0px solid transparent;
+    border-radius: 2px;
+}
+
+
+/* ----------------------------------------------------------------------------
+Page link
+---------------------------------------------------------------------------- */
+
+.pagelink {
+    margin-bottom: 4rem;
+}
+
+.pagelink-title {
+    font-size:1.5em;
+    font-weight: 600;
+    font-family: source-serif-pro, "Source Serif Pro", sans-serif;
+    color: black;
+    display: block;
+    text-decoration: underline;
+}
+
+.pagelink-subtitle {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+/* ----------------------------------------------------------------------------
+Other
+---------------------------------------------------------------------------- */
+
+.math {
+    font-size: 0.8em;
+}
+
+#content table {
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#content table th {
+    background-color: #f3f3f3;
+    padding: 8pt 20pt;
+}
+
+#content table td {
+    padding: 8pt 20pt;
+}
+
+#content figure {
+    margin-bottom: 2rem;
+}
+
+#content .katex { /* Inline math */
+    font-size: 1.2em;
+}
+
+#content .katex-display { /* Block math */
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+    margin: 4rem 0;
+    display: block;
+}
+
+#content .katex-display .katex { /* Block math */
+    font-size: 1.2em;
+}

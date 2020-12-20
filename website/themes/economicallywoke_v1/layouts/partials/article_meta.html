@@ -1,0 +1,11 @@
+{{ if eq .Type "article" }} 
+    {{ $readTime := mul (div (countwords .Content) 220.0) 60 }}
+
+    {{ $minutes := math.Floor (div $readTime 60) }}
+    {{ $seconds := mod $readTime 60 }}
+
+    <div class="article-meta">
+        Read in {{ $minutes }} {{ cond (eq $minutes 1) "minute" "minutes" }} and
+        {{ $seconds }} {{ cond (eq $seconds 1) "second" "seconds" }}
+    </div>
+{{ end }}
