@@ -1,5 +1,4 @@
 {
-  "alias": "economicallywoke.com",
   "public": false,
   "routes": [
     { "handle": "filesystem" },

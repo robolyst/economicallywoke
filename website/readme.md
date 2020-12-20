@@ -1,6 +1,6 @@
-# Robolyst landing site
+# Economically Woke website
 
-site: http://robolyst.com
+site: http://econoimcallywoke.com
 
 ## Development setup
 
