@@ -35,7 +35,7 @@ a:hover {
 
 #content {
     min-height: 100%;
-    margin-bottom: 8rem;
+    /* padding-bottom: 8rem; */
 }
 
 h1 {
@@ -141,6 +141,7 @@ Sections
 
 .section {
     margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 /* ----------------------------------------------------------------------------
@@ -219,7 +220,7 @@ Footer
 ---------------------------------------------------------------------------- */
 
 footer {
-    /* background-color: #003559; */
+    background-color: #F3F1E7;;
     color: #60495A;
     text-align: center;
     padding-top: 1rem;
