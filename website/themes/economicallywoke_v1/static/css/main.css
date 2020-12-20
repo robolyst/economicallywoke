@@ -24,7 +24,7 @@ body {
 }
 
 a:hover {
-    color: #2D9CDB !important;
+    color: #EB5757 !important;
 }
 
 #content img {
@@ -224,7 +224,6 @@ Footer
 
 footer {
     background-color: #F3F1E7;
-    color: #60495A;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
