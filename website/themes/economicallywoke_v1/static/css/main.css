@@ -118,6 +118,60 @@ Splash
 }
 
 /* ----------------------------------------------------------------------------
+Sections
+---------------------------------------------------------------------------- */
+
+#sections {
+    background-color: #F3F1E7;
+    overflow: auto;
+}
+
+#sections .number {
+    text-align: center;
+    font-weight: 800;
+    color: #EB5757;
+}
+
+#sections .title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 2rem;
+}
+
+.section {
+    margin-top: 10rem;
+}
+
+/* ----------------------------------------------------------------------------
+Page link
+---------------------------------------------------------------------------- */
+
+.pagelink {
+    margin-bottom: 4rem;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 5px;
+    padding: 40px;
+    width: 300px;
+}
+
+.pagelink-title {
+    font-size:1.3em;
+    font-weight: 600;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.pagelink-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+
+/* ----------------------------------------------------------------------------
 Page / article title section
 ---------------------------------------------------------------------------- */
 
@@ -229,29 +283,6 @@ Signup form
     background-color: #2D9CDB;
     border: 0px solid transparent;
     border-radius: 2px;
-}
-
-
-/* ----------------------------------------------------------------------------
-Page link
----------------------------------------------------------------------------- */
-
-.pagelink {
-    margin-bottom: 4rem;
-}
-
-.pagelink-title {
-    font-size:1.5em;
-    font-weight: 600;
-    font-family: source-serif-pro, "Source Serif Pro", sans-serif;
-    color: black;
-    display: block;
-    text-decoration: underline;
-}
-
-.pagelink-subtitle {
-    font-size: 1.25em;
-    font-weight: 300;
 }
 
 /* ----------------------------------------------------------------------------
