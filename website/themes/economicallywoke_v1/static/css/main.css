@@ -39,11 +39,10 @@ a:hover {
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 2.5em;
     font-weight: 700;
-    margin-top: 60pt;
-    margin-bottom: 30pt;
-    font-family: source-serif-pro, "Source Serif Pro", sans-serif;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -51,7 +50,6 @@ h2 {
     font-weight: 600;
     margin-top: 40pt;
     margin-bottom: 10pt;
-    font-family: source-serif-pro, "Source Serif Pro", sans-serif;
 }
 
 
@@ -173,14 +171,15 @@ Page link
 
 
 /* ----------------------------------------------------------------------------
-Page / article title section
+Page
 ---------------------------------------------------------------------------- */
 
 #page_header {
-    margin-top: 9.5rem;
-    margin-bottom: 9.5rem;
-    font-family: source-serif-pro, "Source Serif Pro", sans-serif;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    margin-bottom: 5rem;
     text-align: center;
+    background-color: #F3F1E7;
 }
 
 #page_header h1.title {
@@ -215,12 +214,16 @@ Page / article title section
   
 } */
 
+#page_content {
+    margin-bottom: 10rem;
+}
+
 /* ----------------------------------------------------------------------------
 Footer
 ---------------------------------------------------------------------------- */
 
 footer {
-    background-color: #F3F1E7;;
+    background-color: #F3F1E7;
     color: #60495A;
     text-align: center;
     padding-top: 1rem;
@@ -242,7 +245,6 @@ footer {
     margin-bottom: 20pt;
     display: block;
     text-align: center;
-    font-family: source-serif-pro, "Source Serif Pro", sans-serif;
 }
 
 .footer-signup .subcallout {

@@ -1,11 +1,15 @@
 {{ define "main" }}
+
+
     <div id="page_header">
-        <h1 class='title'>{{ .Title }}</h1>
-        <span class="subtitle">{{ .Params.subtitle }}</span>
-        {{- partial "article_meta.html" . -}}
-
-
+        <div class='container'>
+            <h1 class='title'>{{ .Title }}</h1>
+            <span class="subtitle">{{ .Params.subtitle }}</span>
+            {{- partial "article_meta.html" . -}}
+        </div>
     </div>
 
-    {{ .Content }}
+    <div id="page_content" class='container'>
+        {{ .Content }}
+    </div>
 {{ end }}
