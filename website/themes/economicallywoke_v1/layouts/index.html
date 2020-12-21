@@ -15,12 +15,12 @@
     <!-- {{- partial "signupform.html" . -}} -->
 
     <div id="sections">
-        <div class="container">
-            {{ range sort .Site.Sections ".Params.part" "asc" }}
+        <div class="container wide">
+            {{ range (sort (where .Site.Sections "draft" "!=" "true") ".Params.part" "asc") }}
                 <div class="section">
                     <div class="number">PART {{ .Params.part }}</div>
                     <div class="title">{{ .Title }}</div>
-                    <div>{{ .Content }}</div>
+                    <div class="content">{{ .Content }}</div>
                 </div>
             {{ end }}
         </div>

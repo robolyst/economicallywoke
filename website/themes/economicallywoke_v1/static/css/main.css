@@ -29,6 +29,10 @@ body {
     max-width: 750px;
 }
 
+.container.wide {
+    max-width: 1200px;
+}
+
 a {
     color: #EB5757;
 }
@@ -157,12 +161,19 @@ Sections
     margin-bottom: 10rem;
 }
 
+.section .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
 /* ----------------------------------------------------------------------------
 Page link
 ---------------------------------------------------------------------------- */
 
 .pagelink {
-    margin-bottom: 4rem;
+    margin: 1rem;
     background-color: rgba(255, 255, 255, 0.33);
     border-radius: 5px;
     padding: 40px;
