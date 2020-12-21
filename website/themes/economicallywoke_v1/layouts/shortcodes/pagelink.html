@@ -1,6 +1,6 @@
-<div class="pagelink">
-    {{ with .Site.GetPage (index .Params 0) }}
-        <div class="pagelink-subtitle">{{ .Params.subtitle }}</div>
-        <a class="pagelink-title" href="{{ .Permalink }}">{{ .Title }}</a>
-    {{ end }}
-</div>
+{{ with .Site.GetPage (index .Params 0) }}
+<a class="pagelink"  href="{{ .Permalink }}">
+    <div class="pagelink-subtitle">{{ .Params.subtitle }}</div>
+    <div class="pagelink-title">{{ .Title }}</div>
+</a>
+{{ end }}
