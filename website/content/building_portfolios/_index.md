@@ -1,6 +1,6 @@
 ---
-title: "Understanding Assets"
-part: 2
+title: "Building Portfolios"
+part: 3
 date: "2020-12-21"
 draft: true
 ---
