@@ -98,32 +98,35 @@ Splash
     overflow: hidden;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+#splash .container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 #splash .title {
     font-size: 5em;
+    line-height: 1em;
     font-weight: 700;
     color: #EB5757;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
 }
 
 #splash .subtitle {
     font-size: 2em;
     font-weight: 600;
     color: #2F2235;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 1.1rem;
+    max-width: 600px;
 }
 
 #splash .subtext {
     font-size: 1em;
     font-weight: 400;
     color: #2F2235;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
+    margin-top: 1.1rem;
+    max-width: 410px;
 }
 
 /* ----------------------------------------------------------------------------
