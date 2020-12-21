@@ -23,6 +23,10 @@ body {
     max-width: 750px;
 }
 
+a {
+    color: #EB5757;
+}
+
 a:hover {
     color: #EB5757 !important;
 }
