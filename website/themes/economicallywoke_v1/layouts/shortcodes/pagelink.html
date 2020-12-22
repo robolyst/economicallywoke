@@ -1,7 +1,7 @@
-{{ with .Site.GetPage (index .Params 0) }}
-<a class="pagelink"  href="{{ .Permalink }}">
-    <img src="{{ .Params.artwork }}" />
-    <div class="pagelink-title">{{ .Title }}</div>
-    <div class="pagelink-subtitle">{{ .Params.subtitle }}</div>
-</a>
+{{ with .Site.GetPage (.Get 0) }}
+    <a class="pagelink"  href="{{ .Permalink }}">
+        <img src="{{ .Params.artwork }}" />
+        <div class="pagelink-title">{{ .Title }}</div>
+        <div class="pagelink-subtitle">{{ .Params.subtitle }}</div>
+    </a>
 {{ end }}

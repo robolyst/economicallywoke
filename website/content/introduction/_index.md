@@ -5,3 +5,6 @@ date: "2020-06-12"
 ---
 
 {{< pagelink measuring_performance.md >}}
+
+{{< pagelink history_of_gold.md >}}
+
