@@ -203,8 +203,9 @@ Page link
 .pagelink-subtitle {
     font-size: 1em;
     font-weight: 400;
-    margin-bottom: 20px;
-    color: black;
+    color: #00000079;
+    display: block;
+    text-align: center;
 }
 
 #content .pagelink img {
