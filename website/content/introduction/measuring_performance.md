@@ -3,6 +3,7 @@ title: "Measuring performance"
 subtitle: To get better at something, you need to measure it. Once you can measure it, you can check to see if your actions are improving it.
 
 description: ""
+artwork: "how_to_measure_performance/timer.png"
 date: "2020-06-12"
 type: article
 katex: true
