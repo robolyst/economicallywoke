@@ -3,7 +3,7 @@ title: "Simple strategy"
 subtitle: "how and why to buy a market index"
 description: "Yeah, do it, come on, I believe in you."
 
-artwork: "img/gold.png"
+artwork: "img/simple.png"
 date: "2020-12-22"
 type: article
 katex: true
