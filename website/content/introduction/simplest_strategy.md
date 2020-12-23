@@ -1,7 +1,6 @@
 ---
-title: "Simple strategy"
-subtitle: "how and why to buy a market index"
-description: "Yeah, do it, come on, I believe in you."
+title: "Your first strategy"
+subtitle: "start with something simple"
 
 artwork: "img/simple.png"
 date: "2020-12-22"

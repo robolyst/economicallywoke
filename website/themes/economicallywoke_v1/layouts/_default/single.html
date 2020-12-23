@@ -2,8 +2,9 @@
 
     <div id="page_header">
         <div class='container'>
+            {{ if .Params.artwork }}<img src="{{ .Params.artwork }}" /> {{ end }}
             <h1 class='title'>{{ .Title }}</h1>
-            <span class="subtitle">{{ .Params.description }}</span>
+            <span class="subtitle">{{ .Params.subtitle }}</span>
             {{- partial "article_meta.html" . -}}
         </div>
     </div>

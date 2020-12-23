@@ -1,7 +1,6 @@
 ---
 title: "Invest regularly"
-subtitle: "and don't time the market"
-description: "Yeah, do it, come on, I believe in you."
+subtitle: "and don't time the market!"
 
 artwork: "img/metronome.png"
 date: "2020-12-22"

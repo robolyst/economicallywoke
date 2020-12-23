@@ -1,7 +1,6 @@
 ---
 title: "Gold"
 subtitle: "the maddening history"
-description: "Gold has been the center of the financial world for hundreds if not thousands of years. Understanding this anchient instrument will give you tremendous insights."
 
 artwork: "img/gold.png"
 date: "2020-12-22"

@@ -1,7 +1,6 @@
 ---
 title: "Measuring performance"
 subtitle: "of investment returns"
-description: "To get better at something, you need to measure it. Once you can measure it, you can check to see if your actions are improving it."
 
 artwork: "img/timer.png"
 date: "2020-06-12"
