@@ -11,9 +11,24 @@ draft: true
 markup: "mmark"
 ---
 
-How do we measure performance when investing? You might think you can simply measure how much money you make. However, that is a slippery slope which can lead to losing a large portion of your capital. In this article, I want to show you why that isn't a good idea and how we measure investment performance at Robolyst.
 
-# Gold isn't that great
+- Intro
+- History of gold
+    - Gold is not always a good investment
+    - Gold has really only been a good investment when presidents manipulated its relationship to the dollar
+- When is gold a good investment?
+    - Gold is a good investment during inflationary times
+- How to incorporate gold into a portfolio?
+    - You can incorporate gold with a mean variance approach
+- How to use data to move in and out of gold?
+    - You can use leading indicators of inflation as a guide to tactically tilt the portfolio
+
+
+
+
+
+
+# History of gold
 
 Many people hold the belif that gold is a great investment. However, history has demonstrated otherwise. Have a look at the price of gold by each decade below.
 
