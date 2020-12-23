@@ -8,3 +8,6 @@ date: "2020-06-12"
 
 {{< pagelink history_of_gold.md >}}
 
+{{< pagelink invest_regularly.md >}}
+
+{{< pagelink simplest_strategy.md >}}

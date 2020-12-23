@@ -210,6 +210,10 @@ Page link
 
 #content .pagelink img {
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: auto;
 }
 
 
