@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  jupyter-lab:
+  jupyter:
     build: .
     command: jupyter lab --allow-root --ip=0.0.0.0 --notebook-dir='/app' --NotebookApp.token=''
     volumes:
