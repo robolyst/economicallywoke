@@ -1,6 +1,10 @@
-# Economically Woke website
+<p align="center"><img src="https://economicallywoke.com/img/logo-wide.svg" /></p>
 
-site: http://econoimcallywoke.com
+<h4 align="center">Become a better investor by understanding money and economics with data.</h4>
+
+<p align="center">Economically Woke is an evolving online book inspired by my adventures in the land of money, economics and investing.</p>
+
+<p align="center"><a href="http://econoimcallywoke.com">View site</a></p>
 
 ## Development setup
 
