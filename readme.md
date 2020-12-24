@@ -4,7 +4,7 @@
 
 <p align="center"><a href="http://econoimcallywoke.com">EconomicallyWoke.com</a></p>
 
-<p align="center"><img src="https://economicallywoke.com/img/site-preview.png" /></p>
+<p align="center"><img src="https://economicallywoke.com/img/site-preview.gif" /></p>
 
 ## Development setup
 
