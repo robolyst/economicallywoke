@@ -18,7 +18,7 @@ economicallywoke/
 
 * `design` - contains any artifacts and resources used to create the design on the website. 
 * `research` - contains the jupyter notebooks used to perform the mathematical and data research behind the chapters.
-* `webiste` - contains the website. Created with [Hugo](https://gohugo.io/).
+* `website` - contains the website. Created with [Hugo](https://gohugo.io/).
 
 ### Content
 All the chapters are inside the [website/content directory](https://github.com/robolyst/economicallywoke/tree/master/website/content).
