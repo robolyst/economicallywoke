@@ -6,6 +6,24 @@
 
 <p align="center"><img src="https://economicallywoke.com/img/site-preview.gif" /></p>
 
+# Repo structure
+
+Top level structure contains three folders:
+```
+economicallywoke/
+├── design/
+├── research/
+├── website/
+```
+
+* `design` - contains any artifacts and resources used to create the design on the website. 
+* `research` - contains the jupyter notebooks used to perform the mathematical and data research behind the chapters.
+* `webiste` - contains the website. Created with [Hugo](https://gohugo.io/).
+
+### Content
+All the chapters are inside the [website/content directory](https://github.com/robolyst/economicallywoke/tree/master/website/content).
+
+# Development
 ## Development setup
 
 Install Hugo:
