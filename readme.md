@@ -24,7 +24,7 @@ economicallywoke/
 All the chapters are inside the [website/content directory](https://github.com/robolyst/economicallywoke/tree/master/website/content).
 
 # Development
-## Development setup
+### Development setup
 
 Install Hugo:
 ```bash
@@ -35,9 +35,9 @@ Run the deveopment site
 hugo server --watch --buildDrafts
 ```
 
-## Deployment
+### Deployment
 
-### Option 1: Manual deployment
+#### Option 1: Manual deployment
 
 Install Vercel (formerlly Zeit) `npm i -g vercel`
 
@@ -45,6 +45,6 @@ Run `vercel` to run an immutable deploy. You'll get a unique URL to the deploy.
 
 Once happy, run `vercel --prod` to deploy behind http://economicallywoke.com
 
-### Option 2: CI
+#### Option 2: CI
 
 Anything on the master branch is automatically deployed to production.
