@@ -16,7 +16,7 @@
 
     <div id="sections">
         <div class="container wide">
-            {{ range (sort (where .Site.Sections "draft" "!=" "true") ".Params.part" "asc") }}
+            {{ range (sort .Site.Sections ".Params.part" "asc") }}
                 <div class="section">
                     <div class="number">PART {{ .Params.part }}</div>
                     <div class="title">{{ .Title }}</div>
