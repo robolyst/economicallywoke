@@ -1,6 +1,6 @@
 {{ with .Site.GetPage (.Get 0) }}
     <a class="pagelink"  href="{{ .Permalink }}">
-        <img src="{{ .Params.artwork }}" />
+        <div class="img-container"><img src="{{ .Params.artwork }}" /></div>
         <div class="pagelink-title">{{ .Title }}</div>
         <div class="pagelink-subtitle">{{ .Params.subtitle }}</div>
     </a>
