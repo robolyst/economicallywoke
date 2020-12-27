@@ -30,6 +30,4 @@ markup: "mmark"
 
 # History of gold
 
-Many people hold the belif that gold is a great investment. However, history has demonstrated otherwise. Have a look at the price of gold by each decade below.
-
 {{% bokeh "json/gold.json" wide %}}
