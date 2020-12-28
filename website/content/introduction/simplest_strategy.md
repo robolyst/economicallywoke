@@ -10,7 +10,3 @@ bokeh: true
 draft: true
 markup: "mmark"
 ---
-
-* You can automate it
-* You can do it regularly to take advantage of OTHER ARTICLE
-* You can plan ahead. Let me show you.

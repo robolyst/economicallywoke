@@ -12,7 +12,7 @@ markup: "mmark"
 ---
 
 
-- Intro
+<!-- - Intro
 - History of gold
     - Gold is not always a good investment
     - Gold has really only been a good investment when presidents manipulated its relationship to the dollar
@@ -28,6 +28,6 @@ markup: "mmark"
 
 
 
-# History of gold
+# History of gold -->
 
 {{% bokeh "json/gold.json" wide %}}
