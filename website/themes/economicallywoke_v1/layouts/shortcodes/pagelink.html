@@ -1,7 +1,7 @@
 {{ with .Site.GetPage (.Get 0) }}
     {{ $link := cond (gt (len .Content) 0) .Permalink "#" }}
 
-    <a class="pagelink {{ if not .Content }} disabled {{ end }}"  href="{{ $link }}">
+    <a class="pagelink {{ if not .Content }} disabled {{ end }}"  href="{{ $link }}" {{ if not .Content }} onclick="return false;" {{ end }}>
         {{ if .Params.draft }}
             {{ if not .Content }}
                 <div class="no-content-label"></div>
