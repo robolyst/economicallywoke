@@ -1,0 +1,116 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "6pX_2fpDXfXvTtT562WhZ",
+      "type": "line",
+      "x": 1329.5546875,
+      "y": 260.05859375,
+      "width": 86.72265625,
+      "height": 52.125,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 134930093,
+      "version": 34,
+      "versionNonce": 1997949091,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          86.72265625,
+          52.125
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "TkPgUiasWDThYZ3ITnb0E",
+      "type": "line",
+      "x": 1265.88671875,
+      "y": 260.65234375,
+      "width": 149.4609375,
+      "height": 125.30078125,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "round",
+      "seed": 1657423629,
+      "version": 66,
+      "versionNonce": 309489731,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          149.4609375,
+          125.30078125
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": null
+    },
+    {
+      "id": "wJsscV4u7etrHQCI6571T",
+      "type": "text",
+      "x": 1322.53515625,
+      "y": 298.9609375,
+      "width": 80,
+      "height": 25,
+      "angle": 0.6904254833138186,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 1482549613,
+      "version": 201,
+      "versionNonce": 1148006787,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "text": "Draft...",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "top",
+      "baseline": 18
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  }
+}

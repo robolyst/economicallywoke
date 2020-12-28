@@ -174,6 +174,7 @@ Page link
     padding-top: 20px;
     width: 300px;
     display: block;
+    position: relative;
 }
 
 .pagelink:hover {
@@ -184,6 +185,17 @@ Page link
 .pagelink:hover .pagelink-title {
     text-decoration: underline;
     color: #EB5757;
+}
+
+.pagelink.disabled:hover {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.33);
+    cursor: default;
+}
+
+.pagelink.disabled:hover .pagelink-title {
+    text-decoration: none;
+    color: black;
 }
 
 .pagelink-title {
@@ -220,6 +232,27 @@ Page link
     margin-left: auto;
     margin-right: auto;
 }
+
+#content .pagelink .draft-label,
+#content .pagelink .no-content-label {
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
+
+
+#content .pagelink .draft-label {
+    background-image: url(/img/draft.png);}
+
+#content .pagelink .no-content-label {
+    background-image: url(/img/no_content.png);
+}
+
 
 
 

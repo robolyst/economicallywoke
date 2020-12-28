@@ -1,7 +1,17 @@
 {{ with .Site.GetPage (.Get 0) }}
-    <a class="pagelink"  href="{{ .Permalink }}">
+    {{ $link := cond (gt (len .Content) 0) .Permalink "#" }}
+
+    <a class="pagelink {{ if not .Content }} disabled {{ end }}"  href="{{ $link }}">
+        {{ if .Params.draft }}
+            {{ if not .Content }}
+                <div class="no-content-label"></div>
+            {{ else }}
+                <div class="draft-label"></div>
+            {{ end }}
+        {{ end }}
         <div class="img-container"><img src="{{ .Params.artwork }}" /></div>
         <div class="pagelink-title">{{ .Title }}</div>
         <div class="pagelink-subtitle">{{ .Params.subtitle }}</div>
     </a>
+
 {{ end }}
