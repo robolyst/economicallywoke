@@ -318,7 +318,7 @@ Page
 }
 
 .article-meta {
-    font-size: 1em;
+    font-size: 1.1rem;
     font-weight: 300;
     display: block;
     color: rgb(161, 161, 161);
@@ -342,6 +342,8 @@ Page
     font-size: 1.4rem;
     line-height: 1.75em;
     font-weight: 200;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #page_content > * {
@@ -359,6 +361,24 @@ Page
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width:450px) {
+    #page_header {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        margin-bottom: 5rem;
+    }
+    #page_header img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    #page_header span.subtitle {
+        font-size: 1.5rem;
+    }
+    .article-meta {
+        font-size: 1rem;
+    }
 }
 
 /* ----------------------------------------------------------------------------
@@ -506,11 +526,11 @@ Other
 
 #content table th {
     background-color: #f3f3f3;
-    padding: 4pt 20pt;
+    /* padding: 4pt 20pt; */
 }
 
 #content table td {
-    padding: 4pt 20pt;
+    /* padding: 4pt 20pt; */
 }
 
 #content figure {
@@ -530,4 +550,14 @@ Other
 
 #content .katex-display .katex { /* Block math */
     font-size: 1.2em;
+}
+
+@media (max-width:450px) {
+    #content table th {
+        padding: 4pt 4pt;
+    }
+    
+    #content table td {
+        padding: 4pt 4pt;
+    }
 }
