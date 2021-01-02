@@ -526,11 +526,11 @@ Other
 
 #content table th {
     background-color: #f3f3f3;
-    /* padding: 4pt 20pt; */
+    padding: 4pt 20pt;
 }
 
 #content table td {
-    /* padding: 4pt 20pt; */
+    padding: 4pt 20pt;
 }
 
 #content figure {

@@ -23,11 +23,11 @@ Let's play a game. We're going to trade two different investment strategies. The
 
 We'll play this game from January 1900 all the way until September 2020. This time period ensures we cover many different kinds of economic situations from depressions (1930s) to currency devaluation (1970s) and pandemics (2020s). See below for the full 120 year history of S&P prices.
 
-{{% bokeh "assets/invest_regularly/snp_500_history.json" %}}
+{{< bokeh2 json="assets/invest_regularly/snp_500_history.json" static="assets/invest_regularly/snp_500_history.svg" >}}
 
 We'll assume that every month, we'll have $1 to invest in the market from our day job. This will be $1 in January 1900 and will be adjusted for inflation every month. We'll also be receiving an income from our investments in the form of dividends.
 
-{{% bokeh "assets/invest_regularly/income.json" "wide" %}}
+{{< bokeh2 json="assets/invest_regularly/income.json" static="assets/invest_regularly/income.svg" class="wide" >}}
 
 Here are the investment strategies:
 
@@ -41,15 +41,15 @@ Here are the investment strategies:
 
 In our experiment period of 1900 to 2020 there are 1,449 months, so the Invest Monthly strategy will purchase shares int the S&P 500 1,449 times. There are 94 market bottoms. So there are 94 times the Perfect Timing strategy purchases shares.
 
-{{% bokeh "assets/invest_regularly/market_bottoms.json" %}}
+{{< bokeh2 json="assets/invest_regularly/market_bottoms.json" static="assets/invest_regularly/market_bottoms.svg" >}}
 
 Let's see what happens when we play through these investment strategies. The chart below shows the portfolio value from 1900 to 2020. It may be surprising to see that Buys Monthly greatly outperforms Buys The Dip! Even when Buys The Dip has knowledge of the future, Buys Monthly still out performs. At the end of the 120 year period, Buys Monthly has made a little over 17 million dollars while Buys The Dip made a little over 8 million dollars.
 
-{{% bokeh "assets/invest_regularly/results.json" %}}
+{{< bokeh2 json="assets/invest_regularly/results.json" static="assets/invest_regularly/results.svg" >}}
 
 If you started investing when you were 20 years old and continued every month until you retired at say 65 you'd have been investing for 45 years. The lead that Buys Monthly has over a 45 year period is astonishing. If you started in 1932, you'd have a 250% lead over Buys The Dip. If you were retiring now (you started investing in 1975) you'd have a 16% lead. These are quite large numbers for such a simple decision as investing regularly.
 
-{{% bokeh "assets/invest_regularly/plain_gain.json" %}}
+<!-- {{< bokeh2 json="assets/invest_regularly/plain_gain.json" static="assets/invest_regularly/plain_gain.svg" >}} -->
 
 # Why?
 
@@ -59,7 +59,7 @@ The main reason why Buys Monthly outperforms Buys The Dip is that your money spe
 
 The first way that time in the market has an impact is missing out on bull markets. Remember that if you started investing in 1932 you'd have a 250% lead. Let's have a closer look at that 45 year period of the S&P 500:
 
-{{% bokeh "assets/invest_regularly/missing_out.json" %}}
+{{< bokeh2 json="assets/invest_regularly/missing_out.json" static="assets/invest_regularly/missing_out.svg" >}}
 
 The red markers indicate a market bottom which is when the Buys The Dip strategy purchases shares. Look at the begining. There an a 22 year gap between the first purchase and the second. Not only that, but the second purchase was at a considerably higher price. Right at the begining You'd have bought shares for about $5 but then you'd wait over 20 years to buy again at $45 dollars! That whole time, the Buys Monthly strategy was slowly buying shares at a cheap price ready for the coming jump in value.
 
@@ -71,7 +71,7 @@ The second way that time in the market has an impact is not reinvesting dividend
 
 The impact of dividends is quite profound. Have a look at the difference in lead of the Buys Monthly strategy when we ignore dividends:
 
-{{% bokeh "assets/invest_regularly/why_dividends.json" %}}
+{{< bokeh2 json="assets/invest_regularly/why_dividends.json" static="assets/invest_regularly/why_dividends.svg" >}}
 
 Not only has the gain reduced, but during the 1900s, 1950s, 1960s and 1970s Buys Monthly is actually under-performing.
 
