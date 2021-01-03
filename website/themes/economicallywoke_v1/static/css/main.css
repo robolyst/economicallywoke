@@ -342,8 +342,8 @@ Page
     font-size: 1.4rem;
     line-height: 1.75em;
     font-weight: 200;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 #page_content > * {
@@ -378,6 +378,10 @@ Page
     }
     .article-meta {
         font-size: 1rem;
+    }
+    #page_content {
+        font-size: 1.2rem;
+        line-height: 1.5em;
     }
 }
 
