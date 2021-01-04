@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: #FAFAFA;
+    background-color: #FDFDFD;
     color: #3c3c3c;
     font-family: "Source Sans Pro", sans-serif;
     height: 100%;
@@ -34,11 +34,12 @@ body {
 }
 
 a {
-    color: #EB5757;
+    color: #374D9E;
 }
 
 a:hover {
     color: #EB5757;
+    text-decoration: none;
 }
 
 #content img {
@@ -103,7 +104,7 @@ Splash
 
 #splash {
     text-align: center;
-    background-color: #F3F1E7;
+    background-color: #F2F5F8;
     overflow: hidden;
     min-height: 100vh;
     display: flex;
@@ -155,7 +156,7 @@ Sections
 ---------------------------------------------------------------------------- */
 
 #sections {
-    background-color: #F3F1E7;
+    background-color: #F2F5F8;
     overflow: auto;
 }
 
@@ -191,7 +192,7 @@ Page link
 
 .pagelink {
     margin: 1rem;
-    background-color: rgba(255, 255, 255, 0.33);
+    background-color: rgba(256, 256, 256, 0.5);
     border-radius: 5px;
     padding: 40px;
     padding-top: 20px;
@@ -202,7 +203,7 @@ Page link
 
 .pagelink:hover {
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 .pagelink:hover .pagelink-title {
@@ -295,7 +296,7 @@ Page
     padding-bottom: 10rem;
     margin-bottom: 5rem;
     text-align: center;
-    background-color: #F3F1E7;
+    background-color: #F2F5F8;
 }
 
 #page_header img {
@@ -393,36 +394,13 @@ Footer
 ---------------------------------------------------------------------------- */
 
 footer {
-    background-color: #F3F1E7;
+    background-color: #F2F5F8;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-weight: 300;
     font-size: 0.8rem;
 }
-
-.footer-signup {
-    background-color: #b9d6f2;
-    color: #003559;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    margin-top: 4rem;
-}
-
-.footer-signup .callout {
-    font-size: 3em;
-    font-weight:700;
-    margin-bottom: 20pt;
-    display: block;
-    text-align: center;
-}
-
-.footer-signup .subcallout {
-    font-size: 1.5em;
-    font-weight: 300;
-    display: block;
-}
-
 
 /* ----------------------------------------------------------------------------
 Signup form
@@ -456,17 +434,14 @@ Signup form
     padding-bottom: 10px;
     height: 50px;
     border: 0px;
-    border-bottom: 1px solid #3c3c3c;
-    background-color: transparent;
+    background-color: #F2F5F8;
     font-weight: 100;
-    border-radius: 0px;
+    border-radius: 40px;
 }
 
 .signup .form-control:focus {
     border: 0px solid transparent;
-    box-shadow: 0px 0px 0px 1px #3c3c3c;
-    border-radius: 5px;
-    
+    box-shadow: 0px 0px 0px 1px #6083A9;
 }
 
 .signup .form-control::placeholder {
@@ -479,25 +454,29 @@ Signup form
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 10px;
     height: 50px;
     font-weight: 400;
     font-size: 1.2em;
-    background-color: transparent;
-    border: 1px solid #EB5757;
-    color: #EB5757;
+    background-color: #86A776;
+    border: 1px solid #86A776;
+    color: white;
     border-radius: 2px;
-    border-radius: 5px;
+    border-radius: 40px;
+    margin-top: 2.5rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .signup button:hover {
-    background-color: #EB5757;
-    border: 1px solid #EB5757;
+    background-color: #607854;
+    border: 1px solid #607854;
 }
 
 .signup .signup-form {
     justify-content: center;
+    align-items: center;
     display: flex;
+    flex-direction: column;
 }
 
 @media (max-width:450px) {
@@ -506,13 +485,7 @@ Signup form
     }
 
     .signup button {
-        margin-left: 0px;
-        margin-top: 40px;
         font-size: 1.5em;
-    }
-
-    .signup .signup-form {
-        flex-direction: column;
     }
 }
 
