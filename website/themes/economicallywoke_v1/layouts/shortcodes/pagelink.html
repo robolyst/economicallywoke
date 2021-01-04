@@ -2,16 +2,19 @@
     {{ $link := cond (gt (len .Content) 0) .Permalink "#" }}
 
     <a class="pagelink {{ if not .Content }} disabled {{ end }}"  href="{{ $link }}" {{ if not .Content }} onclick="return false;" {{ end }}>
-        {{ if .Params.draft }}
-            {{ if not .Content }}
-                <div class="no-content-label"></div>
-            {{ else }}
-                <div class="draft-label"></div>
-            {{ end }}
-        {{ end }}
         <div class="img-container"><img src="{{ .Params.artwork }}" /></div>
         <div class="pagelink-title">{{ .Title }}</div>
-        <div class="pagelink-subtitle">{{ .Params.subtitle }}</div>
+        <div class="pagelink-subtitle">
+            {{ .Params.subtitle }}
+            {{ if .Params.draft }}
+                <br />
+                {{ if not .Content }}
+                    [No Content]
+                {{ else }}
+                    [Draft]
+                {{ end }}
+            {{ end }}
+        </div>
     </a>
 
 {{ end }}
