@@ -1,4 +1,5 @@
 ---
+chapter: 2
 title: "Your first strategy"
 subtitle: "start with something simple"
 

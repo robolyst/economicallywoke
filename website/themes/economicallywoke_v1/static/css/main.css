@@ -7,10 +7,9 @@ html {
 
 body {
     background-color: #FDFDFD;
-    color: #3c3c3c;
     font-family: "Source Sans Pro", sans-serif;
     height: 100%;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 @media (max-width:450px) {
@@ -82,6 +81,7 @@ Nav bar
     margin-top: 0px;
     padding: 10px 0px 10px 0px;
     background-color: white;
+    border-bottom: 1px solid #EAEAEA;
 }
 
 .navbar-brand {
@@ -288,70 +288,52 @@ Page link
 
 
 /* ----------------------------------------------------------------------------
-Page
+Page (Single)
 ---------------------------------------------------------------------------- */
 
-#page_header {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    margin-bottom: 5rem;
-    text-align: center;
-    background-color: #F2F5F8;
+#single p {
+    text-align: justify;
 }
 
-#page_header img {
-    max-width: 400px;
-    max-height: 400px;
-    width: auto;
-    height: auto;
+#page_header {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#page_header .location {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #646464;
+    display: block;
+    text-align: center;
+}
+
+#page_header .title {
+    font-size: 2.5em;
+    font-weight:700;
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#page_header .blurb {
+    display: block;
+    width: 60%;
+    padding: 0;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
 }
 
-#page_header h1.title {
-    font-size: 4em;
-    font-weight:700;
-    margin-bottom: 10pt;
-    display: block;
-}
-#page_header span.subtitle {
-    font-size: 2.5rem;
-    font-weight: 300;
-    display: block;
-}
-
-.article-meta {
-    font-size: 1.1rem;
-    font-weight: 300;
-    display: block;
-    color: #4F4F4F;
-    text-align: center;
-    margin-top: 20pt;
-    margin-bottom: 20pt;
-}
-
-/* condition for screen size minimum of 500px
-@media (max-width:450px) {
-
-  
-    #page_header h1.title {
-        font-size: 3em;
-    }
-  
-} */
-
 #page_content {
     margin-bottom: 10rem;
-    font-size: 1.4rem;
-    line-height: 1.75em;
-    font-weight: 200;
+    line-height: 1.5em;
     margin-left: 25px;
     margin-right: 25px;
 }
 
 #page_content > * {
-    max-width: 750px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -400,12 +382,13 @@ Footer
 ---------------------------------------------------------------------------- */
 
 footer {
-    background-color: #F2F5F8;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-weight: 300;
     font-size: 0.8rem;
+    background-color: white;
+    border-top: 1px solid #EAEAEA;
 }
 
 /* ----------------------------------------------------------------------------

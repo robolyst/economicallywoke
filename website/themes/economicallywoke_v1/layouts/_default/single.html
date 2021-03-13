@@ -1,16 +1,19 @@
 {{ define "main" }}
 
-    <div id="page_header">
-        <div class='container'>
-            {{ if .Params.artwork }}<img src="{{ .Params.artwork }}" /> {{ end }}
-            <h1 class='title'>{{ .Title }}</h1>
-            <span class="subtitle">{{ .Params.subtitle }}</span>
-            {{- partial "article_meta.html" . -}}
-        </div>
-    </div>
+    <div id="single">
 
-    <div id="page_content">
-        {{ .Content }}
+        <div id="page_header">
+            <div class='container'>
+                <span class='location'>Part {{ .Parent.Params.part }} chapter {{ .Params.chapter }}</span>
+                <span class='title'>{{ .Title }}</span>
+                <p class="blurb">{{ .Params.blurb }}</p>
+            </div>
+        </div>
+
+        <div id="page_content">
+            {{ .Content }}
+        </div>
+
     </div>
 
 {{ end }}

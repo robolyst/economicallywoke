@@ -1,6 +1,8 @@
 ---
+chapter: 3
 title: "Measuring performance"
 subtitle: "of investment returns"
+blurb: "To get better at something, you need to measure it. Once you can measure it, you can check to see if your actions are improving it."
 
 artwork: "assets/how_to_measure_performance/timer.png"
 date: "2020-06-12"
@@ -11,7 +13,7 @@ markup: "mmark"
 
 How do we measure performance when investing? You might think you can simply measure how much money you make. However, that is a slippery slope which can lead to losing a large portion of your capital. In this article, I want to show you why that isn't a good idea and how we measure investment performance at Robolyst.
 
-# How to think about investment performance
+# How to think about performance
 
 A quick way of quantifying an investment's performance is to measure how much money it made. If you invested $100 and at the end of the year you have $108, you made $8. We express this as a percentage and call it the **return**.  In this example, you made an 8% return. Because we expressed this as a percentage, you can quickly figure out how much money you would have made if you invested $1,000. Eight percent of $1,000 is $80.
 
