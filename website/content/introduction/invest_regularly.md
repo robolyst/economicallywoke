@@ -1,7 +1,7 @@
 ---
 chapter: 1
 title: "Invest regularly"
-subtitle: "and don't time the market!"
+blurb: "Woke investors combine lots of simple things, each one providing a small improvement. One of these simple things is investing regularly."
 
 artwork: "assets/invest_regularly/metronome.png"
 date: "2020-12-22"
@@ -11,8 +11,6 @@ bokeh: true
 draft: true
 markup: "mmark"
 ---
-
-Great investing comes down to combining lots of simple things, each one giving you a small improvement. In this chapter, we're going to learn about one of these simple things; investing regularly.
 
 The ups and downs of markets can seem exciting in some moments and scary in others. The alternative to investing regularly is to hold off purchasing more investments during these scary times until you believe the market has reached a bottom. You then purchase at a cheap price and watch your investment increase in value. To pull this off, you will need to have perfect market timing.
 

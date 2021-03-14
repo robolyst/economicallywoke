@@ -1,6 +1,7 @@
 ---
+chapter: 3
 title: "GDP"
-subtitle: "how to measure an economy"
+blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio neque, volutpat vel nunc ut."
 
 artwork: "img/question_mark.png"
 date: "2020-12-22"

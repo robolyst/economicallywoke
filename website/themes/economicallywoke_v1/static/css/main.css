@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-    max-width: 750px;
+    max-width: 1000px;
 }
 
 .container.wide {
@@ -151,7 +151,6 @@ Sections
 ---------------------------------------------------------------------------- */
 
 #sections {
-    background-color: #F2F5F8;
     overflow: auto;
 }
 
@@ -165,13 +164,13 @@ Sections
 #sections .title {
     text-align: center;
     font-weight: 800;
-    font-size: 3em;
-    margin-bottom: 2rem;
+    font-size: 2.5em;
+    margin-bottom: 4rem;
 }
 
 .section {
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
 }
 
 .section .content {
@@ -182,103 +181,46 @@ Sections
 }
 
 /* ----------------------------------------------------------------------------
-Page link
+Chapters
 ---------------------------------------------------------------------------- */
 
-.pagelink {
-    margin: 1rem;
-    background-color: rgba(256, 256, 256, 0.5);
-    border-radius: 5px;
-    padding: 40px;
-    padding-top: 20px;
-    width: 300px;
-    display: block;
-    position: relative;
+/* Three columns */
+.section .chapters {
+    display: flex;
+    flex-flow: row wrap;
+}
+.section .chapters .chapter {
+    /* flex-grow: 1; */
+    width: 33%;
 }
 
-.pagelink:hover {
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.pagelink:hover .pagelink-title {
-    color: #EB5757;
-}
-
-.pagelink.disabled:hover {
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.33);
-    cursor: default;
-}
-
-.pagelink.disabled:hover .pagelink-title {
-    text-decoration: none;
+/* ----------------------------------------------------------------------------
+Chapter
+---------------------------------------------------------------------------- */
+#sections .chapter {
+    display: flex;
+    flex-flow: row;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: black;
+    margin-bottom: 2.5rem;
 }
 
-.pagelink-title {
-    font-size:1.3em;
-    font-weight: 600;
-    color: black;
-    display: block;
-    text-align: center;
+#sections .chapter:hover .front {
+    text-decoration: underline;
 }
 
-.pagelink-subtitle {
-    font-size: 1em;
-    font-weight: 400;
-    color: #00000079;
-    display: block;
-    text-align: center;
+#sections .chapter .number {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #BFBFBF;
+    padding-right: 10px;
 }
 
-#content .pagelink .img-container {
-    margin: 0;
-    width: 200px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    /* background-color: red; */
-}
-
-#content .pagelink img {
-    margin: 0;
-    max-width: 200px;
-    max-height: 200px;
-    width: auto;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#content .pagelink .draft-label,
-#content .pagelink .no-content-label {
-    width: 70px;
-    height: 60px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;              /* optional, center the image */
-}
-
-
-#content .pagelink .draft-label {
-    background-image: url(/img/draft.png);}
-
-#content .pagelink .no-content-label {
-    background-image: url(/img/no_content.png);
-}
-
-
-@media (max-width:450px) {
-    .pagelink-title {
-        font-size:2em;
-    }
-    .pagelink-subtitle {
-        font-size: 1.5em;
-    }
+#sections .chapter .title {
+    font-size: 1.3em;
+    text-align: left;
+    margin-bottom: 0.3rem;
 }
 
 

@@ -11,12 +11,22 @@
     {{- partial "signupform.html" . -}}
 
     <div id="sections">
-        <div class="container wide">
+        <div class="container">
             {{ range (sort .Site.Sections ".Params.part" "asc") }}
                 <div class="section">
                     <div class="number">PART {{ .Params.part }}</div>
                     <div class="title">{{ .Title }}</div>
-                    <div class="content">{{ .Content }}</div>
+                    <div class="chapters">
+                        {{ range (sort .Pages ".Params.chapter" "asc") }}
+                            <a class="chapter" href="{{ .Permalink }}">
+                                <div class="number">{{ printf "%02d" .Params.chapter }}</div>
+                                <div class="front">
+                                    <div class="title">{{ .Title }}</div>
+                                    <div class="blurb">{{ .Params.blurb }}</div>
+                                </div>
+                            </a>
+                        {{ end }}
+                    </div>
                 </div>
             {{ end }}
         </div>

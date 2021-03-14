@@ -1,7 +1,7 @@
 ---
 chapter: 2
 title: "Your first strategy"
-subtitle: "start with something simple"
+blurb: "Investing doesn't have to be difficult. You can get started with something very simple."
 
 artwork: "img/simple.png"
 date: "2020-12-22"

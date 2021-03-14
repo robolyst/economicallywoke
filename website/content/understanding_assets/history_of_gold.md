@@ -1,6 +1,7 @@
 ---
+chapter: 2
 title: "Gold"
-subtitle: "the maddening history"
+blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio neque, volutpat vel nunc ut."
 
 artwork: "img/gold.png"
 date: "2020-12-22"
